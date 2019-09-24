@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 import DevTools from './DevTools';
 import routes from './routes';
-import style from './country.css';
+import './country.css';
 
 render(
   <Provider store={store}>
