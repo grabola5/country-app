@@ -10,6 +10,7 @@ export default (
     <Route path='/' component={Navigation}>
       <IndexRoute component={Home}/>
       <Route path='countries' component={CountryFlagContainer}/>
+      <Route path='countries/country/:id' component={CountryDetailsContainer}/>
       <Route path='contact' component={Contact}/>
       <Route path='*' component={NotFound}/>
     </Route>
